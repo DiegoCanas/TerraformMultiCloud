@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"database","Source":"./modules/database","Dir":"modules/database"},{"Key":"lb","Source":"./modules/lb","Dir":"modules/lb"},{"Key":"microservice-instance","Source":"./modules/microservice-instance","Dir":"modules/microservice-instance"},{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"}]}
