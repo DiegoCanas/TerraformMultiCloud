@@ -1,5 +1,5 @@
 # Ignorar la carpeta .terraform
-**/..terraform.lock.hcl/*
+**/.terraform/*
 
 # Ignorar archivos generados por Terraform
 *.tfstate
