@@ -2,7 +2,7 @@ variable name {}
 variable region {default = "eu-west-3"}
 variable zones { default = ["eu-west-3a", "eu-west-3b"] }
 variable env { default = "dev" }
-variable network_name {default = "awsVPC"}
+variable network_name {default = "awsMC"}
 variable credentials{}
 variable image {default="ami-0d2ca4d7e5645e504"} 
 
