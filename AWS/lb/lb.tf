@@ -67,7 +67,7 @@ resource "aws_elb" "webserver_elb" {
   }
 
   listener {
-    lb_port           = 80
+    lb_port           = 80 #Definimos puerto donde escucha
     lb_protocol       = "http"
     instance_port     = "80"
     instance_protocol = "http"
