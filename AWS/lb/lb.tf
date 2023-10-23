@@ -75,10 +75,10 @@ resource "aws_elb" "webserver_elb" {
 
 }
 
-
+#Autoescalado automático con la configuración del LoadBalancer previo
 resource "aws_autoscaling_group" "webserver-asg" {
   name = "${aws_launch_configuration.webserver-lc.name}-asg"
-
+  #Definicion del mínimo de instancias, capacidad deseada y máxima
   min_size         = 1
   desired_capacity = 2
   max_size         = 3
