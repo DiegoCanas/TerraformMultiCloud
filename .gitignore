@@ -1,2 +1,11 @@
 # Ignorar la carpeta .terraform
-.terraform/
+**/.terraform/*
+
+# Ignorar archivos generados por Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Otros archivos generados
+*.log
+*.tfvars
