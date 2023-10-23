@@ -11,3 +11,4 @@ resource "aws_instance" "apps" {
   tags = {  
     Name = "apps-${random_id.app_name_suffix.hex}"
   }
+}

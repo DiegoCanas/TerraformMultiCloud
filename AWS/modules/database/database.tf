@@ -4,7 +4,7 @@ resource "random_id" "db_name_suffix" {
 }
 resource "aws_db_instance" "xcloud_postgres_db" {
   # count  = var.no_of_db_instances
-  name             = "postgres_instance_${random_id.db_name_suffix.hex}"
+  #name             = "postgres_instance_${random_id.db_name_suffix.hex}"
   allocated_storage    = 20
   storage_type         = "gp2"
   engine               = "postgres"
@@ -12,6 +12,6 @@ resource "aws_db_instance" "xcloud_postgres_db" {
   instance_class       = "db.t2.micro"
   username             = var.db_user
   password             = var.db_password
-  final_snapshot_identifier = "awsMC_backup"
+  final_snapshot_identifier = "awsMCbackup"
   skip_final_snapshot       = true
 }
