@@ -1,6 +1,6 @@
 provider "aws" {
   #credentials_file = file("${var.credentials}")
-  region           = var.region
+  region = var.region
 
 }
 
